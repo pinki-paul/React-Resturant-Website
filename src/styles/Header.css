@@ -1,0 +1,49 @@
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+.nav-menu a:hover {
+    color: goldenrod;
+}
+
+.active {
+    color: goldenrod !important;
+    font-weight: bold !important;
+}
+
+/* mobile view nav design */
+.mobile-nav-menu {
+    list-style: none;
+}
+
+.mobile-nav-menu li {
+    margin-top: 1.2rem;
+}
+
+.mobile-nav-menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all .3s ease-in-out;
+}
+
+.mobile-nav-menu a:hover {
+    color: goldenrod;
+}
